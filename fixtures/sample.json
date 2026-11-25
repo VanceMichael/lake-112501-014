@@ -1,5 +1,27 @@
 {
   "说明": "本地合成演练资料",
   "业务对象": "多源地理瓦片的分辨率降级与覆盖证明",
-  "记录": []
+  "记录": [
+    {
+      "tile": "z10-1",
+      "object": "road-1",
+      "crs": "EPSG:4326",
+      "resolution": 10,
+      "valid_at": "2026-10-16T00:00:00Z"
+    },
+    {
+      "tile": "z11-2",
+      "object": "road-1",
+      "crs": "EPSG:3857",
+      "resolution": 11,
+      "valid_at": "2026-10-16T00:00:00Z"
+    },
+    {
+      "tile": "z10-1",
+      "object": "station-4",
+      "crs": "EPSG:4326",
+      "resolution": 10,
+      "valid_at": "2026-10-16T00:01:00Z"
+    }
+  ]
 }
